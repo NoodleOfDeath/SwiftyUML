@@ -1,0 +1,6 @@
+framework module SwiftyUML {
+  umbrella header "SwiftyUML-umbrella.h"
+
+  export *
+  module * { export * }
+}
