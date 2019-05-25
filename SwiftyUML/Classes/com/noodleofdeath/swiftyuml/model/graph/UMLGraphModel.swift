@@ -24,7 +24,7 @@
 
 import Foundation
 
-@objc(UMLGraphModelDelegate)
+@objc
 public protocol UMLGraphModelDelegate {
     
     @objc optional
@@ -36,7 +36,7 @@ public protocol UMLGraphModelDelegate {
 }
 
 /// Base model data structure for a UML graph.
-@objc(UMLGraphModel)
+@objc
 open class UMLGraphModel: NSObject, Codable, NSCoding {
     
     /// Coding keys used for encoding/decoding instances of this class.

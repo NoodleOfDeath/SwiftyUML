@@ -29,7 +29,7 @@ import SnapKit
 extension UMLGraph {
     
     /// Base view implementation for a UML graph node.
-    @objc(Node)
+    @objc(UMLGraphNode)
     open class Node: Component<UMLGraphModel.NodeModel> {
         
         // MARK: - Instance Properties

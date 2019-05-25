@@ -26,7 +26,7 @@ import UIKit
 
 import SnapKit
 
-@objc(UMLGraphDelegate)
+@objc
 public protocol UMLGraphDelegate {
     
     @objc optional
